@@ -34,5 +34,5 @@ def extract(fpath, password_provided):
     with open(fname, 'wb') as m:
         m.write(decrypted)
 
-    print("File Extracted Successfully!!")
+    print("File Extracted Successfully!! Hurray !!")
     song.close()
